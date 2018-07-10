@@ -9,10 +9,13 @@ body{
 
 h1{
     letter-spacing: 16px;
+    padding-left: 40px;
  }   
 
 #header{
   color: white;
+  padding-left: 40px;
+  max-width: 400px;
  }
 
  p{
@@ -24,16 +27,17 @@ h1{
   text-transform: uppercase;
   font-weight: 600;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    padding-top: 10px;
-  flex: 2;
-  text-align: right;
+  padding-top: 10px;
+  text-align: left;
+  padding-right: 40px;
+  padding-left: 50px;
+  width: 151px;
 }
 #backgroundtext, #educationtext, #skillstext, #experiencetext, #contacttext{
-  flex: 8;
   text-align: left;
   font-size: 18px;
   letter-spacing: 2px;
-  padding-left: 30px;
+  width: 700px;
 }
 #showcase{
   background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1489&q=80);
@@ -43,17 +47,11 @@ h1{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  padding-left: 160px;
-  padding-right: 20px;
   letter-spacing: 3px;
 }
 
 #section-a{
-  padding-top: 10px;
-  padding-left: 210px;
-  padding-right: 210px;
-  padding-bottom: 10px;
+ 
   background: black;
   color: white;
   text-align: center;
@@ -64,5 +62,81 @@ h1{
   flex-direction: row;
   background: #f4f4f4;
    color: black;
-  padding: 50px 500px 10px 500px;
+   margin: 0px 80px 0px 80px;
+   justify-content: center;
 }
+/*//responsive for smart phones*/
+
+@media only screen and (max-width: 600px) {
+ body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: white;
+  line-height: 1.6;
+  background-image: url(white_wall_hash.png);
+}
+
+h1{
+    letter-spacing: 16px;
+    padding-left: 5%;
+ }   
+
+#header{
+  color: white;
+  padding-left: 5%;
+  max-width: 55%;
+ }
+
+ p{
+  color:black;
+ }
+
+#background, #education, #skills, #experience, #contact{
+  font-size: 12px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  padding-top: 10px;
+  text-align: left;
+  padding-right: 5%; 
+  padding-left:5%;
+  width:40%;
+}
+#backgroundtext, #educationtext, #skillstext, #experiencetext, #contacttext{
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 60%;
+
+}
+#showcase{
+  background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1489&q=80);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 3px;
+}
+
+#section-a{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+#section-b, #section-c, #section-d, #section-e, #section-f{
+  display:flex;
+  flex-direction: row;
+  background: #f4f4f4;
+   color: black;
+   margin: auto;
+   justify-content: center;
+   padding-left: 5%;
+}
+
+}
+
