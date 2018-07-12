@@ -11,7 +11,9 @@ h1{
     letter-spacing: 16px;
     padding-left: 40px;
  }   
-
+.backgroundimg{
+   background-image: url(white_wall_hash.png)
+}
 #header{
   color: white;
   padding-left: 40px;
@@ -76,7 +78,9 @@ h1{
   line-height: 1.6;
   background-image: url(white_wall_hash.png);
 }
-
+.backgroundimg{
+   background-image: url(white_wall_hash.png)
+}
 h1{
     letter-spacing: 16px;
     padding-left: 5%;
