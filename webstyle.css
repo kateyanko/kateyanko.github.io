@@ -12,7 +12,7 @@ h1{
     padding-left: 40px;
  }   
 .backgroundimg{
-   background-image: url(white_wall_hash.png)
+   background-image: url(white_wall_hash.png);
 }
 #header{
   color: white;
@@ -79,7 +79,7 @@ h1{
   background-image: url(white_wall_hash.png);
 }
 .backgroundimg{
-   background-image: url(white_wall_hash.png)
+   background-image: url(white_wall_hash.png);
 }
 h1{
     letter-spacing: 16px;
