@@ -42,7 +42,7 @@ h1{
   width: 700px;
 }
 #showcase{
-  background-image: url(marketing.jpg);
+  background-image: url(https://images.unsplash.com/photo-1502892247800-37f114ca1e24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d6ba87a54a416c255419d4c7e3031e72&auto=format&fit=crop&w=1950&q=80);
   height: 80vh;
   background-size: cover;
   background-position: center;
@@ -116,7 +116,7 @@ h1{
 
 }
 #showcase{
-  background-image: url(marketing.jpg);
+  background-image: url(https://images.unsplash.com/photo-1502892247800-37f114ca1e24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d6ba87a54a416c255419d4c7e3031e72&auto=format&fit=crop&w=1950&q=80);
   height: 80vh;
   background-size: cover;
   background-position: center;
